@@ -6,7 +6,7 @@ figure.figsize : 3.37, 2.53
 figure.dpi : 600
 
 savefig.bbox : tight
-savefig.pad_inches : 0
+savefig.pad_inches : 0.005  # use remaining column width for padding
 
 font.family : serif
 font.sans-serif : STIX
