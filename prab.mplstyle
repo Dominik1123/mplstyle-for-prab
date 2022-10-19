@@ -1,0 +1,35 @@
+# Matplotlib style for the journal Physical Review Accelerators and Beams
+# Requirements taken from: https://journals.aps.org/prab/authors
+
+# [Requirement] "Figures should have a width of a 8.6 cm or 3 3/8 in, the width of a single manuscript column."
+figure.figsize : 3.37, 2.53
+figure.dpi : 600
+
+savefig.bbox : tight
+savefig.pad_inches : 0
+
+font.family : serif
+font.sans-serif : STIX
+mathtext.fontset : stix
+
+text.usetex : True
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
+
+# [Requirement] "Make the diameter of each data point at least 1 mm."
+# [Requirement] "Make a curve’s linewidth at least 0.18 mm (0.5 point)."
+axes.linewidth : 0.5
+grid.linewidth : 0.5
+lines.linewidth : 1
+lines.markersize: 3
+
+# [Requirement] "Make the height of the smallest capital letters and numerals at least 2 mm."
+axes.labelsize : 7
+xtick.labelsize : 7
+ytick.labelsize : 7
+legend.fontsize : 7
+font.size : 7
+
+xtick.minor.visible : False
+ytick.minor.visible : False
+
+legend.frameon : True
